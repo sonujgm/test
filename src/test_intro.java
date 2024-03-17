@@ -10,8 +10,6 @@ public class test_intro {
 		WebDriver driver= new ChromeDriver();
 		driver.get("https://account.box.com/login"); 
 		System.out.println(driver.getTitle());
-		driver.quit();
-		
 	}
 
 }
